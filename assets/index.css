@@ -26,7 +26,11 @@ section.bio .links {
     width: 100%;
     max-width: 400px;
 }
-section.bio .links a {
+.redes i {
+    font-size: 40px;
+    color: white;
+}
+.redes {
     display: flex;
     align-items: center;
     width: 100%;
@@ -40,18 +44,20 @@ section.bio .links a {
 section.bio .links a:hover {
     background-color: rgba(255, 255, 255, 0.2);
 }
-section.bio .links a:hover .bolinha {
+section.bio .links a:hover .redes_sociais {
     background-color: white;
 }
-section.bio .links a .bolinha {
-    background-color: white;
+section.bio .links a .redes_sociais {
+
+    color: white;
+    width: ;
+    /* background-color: white;
     width: 15px;
     height: 15px;
     border-radius: 50%;
     box-shadow: 10px -10px 30px 0 white;
-    transition: all 0.3s;
+    transition: all 0.3s; */
 }
-
 section.bio .links a .texto {
     margin: 0 0 0 20px;
 }
@@ -71,7 +77,6 @@ section.bio .links a .texto H3 {
     height: 250px;
     width: auto;
     margin-bottom: -20px;
-    padding: px;
     }
     .links {
         padding-top: 30px;
